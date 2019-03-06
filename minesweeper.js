@@ -15,13 +15,43 @@ var board = {
       hidden: true
     },
     {
-      row: 1,
-      col: 1,
+      row: 0,
+      col: 2,
       isMine: false,
       hidden: true
     },
     {
       row: 1,
+      col: 0,
+      isMine: false,
+      hidden: true
+    },
+    {
+      row: 1,
+      col: 1,
+      isMine: true,
+      hidden: true
+    },
+    {
+      row: 1,
+      col: 2,
+      isMine: false,
+      hidden: true
+    },
+    {
+      row: 2,
+      col: 0,
+      isMine: false,
+      hidden: true
+    },
+    {
+      row: 2,
+      col: 1,
+      isMine: false,
+      hidden: true
+    },
+    {
+      row: 2,
       col: 2,
       isMine: false,
       hidden: true
@@ -36,7 +66,8 @@ var board = {
 
 
 function startGame () {
-  // Don't remove this function call: it makes the game work!
+  for(i = 0; i < board.cells.length; i++)
+  
   lib.initBoard()
 }
 
