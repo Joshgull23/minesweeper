@@ -48,11 +48,11 @@ div.mine, div.mine:hover {
 }
 
 div.hidden {
-  background: #eee;
+  background: rgb(149, 248, 103);
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: rgb(138, 130, 130);
 }
 
 div.marked, div.marked:hover {
